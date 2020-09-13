@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e5e7be1-0f6a-4871-8ae4-7ad8fce26327" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/small_yan/Class10_Ocean$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/small_yan/Class10_Ocean$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/small_yan/Class10_Ocean.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/small_yan/Class10_Ocean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/small_yan/Class10_dfs_bfs.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/small_yan/Class10_dfs_bfs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/KClosest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/SearchInRotatedArrayII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/H2O.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/H2O_ED2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ProducerConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dfs/AllCombinationsOfCoins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dfs/AllSubSet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dfs/AllSubset1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dfs/Lec6_DFS_HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dfs/Permutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/ADebug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/ArrayHopper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/BuyStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/CuttingWood1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/EditDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/ExerciseClass_DP3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/InterleaveArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSetOfPointsWithPositiveSlope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSquareOf1s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSubArrayProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSubArraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSubMatrixProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSubMatrixSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LargestSumOfValidNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/Longest1s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/Longest1sExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LongestCommonSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MaxProductCut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MergeStone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MinCut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MinJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/WorldBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BestFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Bipartite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BreadthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/small_yan/Class10_Ocean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/small_yan/Class10_Ocean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/small_yan/Class10_dfs_bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/small_yan/Class10_dfs_bfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/LargestRectangleInHistogram.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1930402184">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/s_array/KClosest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="140" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="907" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laicode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laicode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laicode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laicode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laicode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laicode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="s_array" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e5e7be1-0f6a-4871-8ae4-7ad8fce26327" name="Default Changelist" comment="" />
+      <created>1532806613484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532806613484</updated>
+      <workItem from="1532806621648" duration="3000" />
+      <workItem from="1554270162425" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="140" y="43" width="1400" height="907" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/s_array/KClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,101 @@
+package sortbynum;
+
+import java.util.Map.Entry;
+
+import ds.TrieNode;
+
+/**
+ * 
+ * @author xutian
+ * 
+ * Design a data structure that supports the following two operations:
+ * void addWord(word)
+ * bool search(word)
+ * search(word) can search a literal word or a regular expression string containing only letters a-z or .. A . means it can represent any one letter.
+
+ * Example:
+
+ * addWord("bad")
+ * addWord("dad")
+ * addWord("mad")
+ * search("pad") -> false
+ * search("bad") -> true
+ * search(".ad") -> true
+ * search("b..") -> true
+ * Note:
+ * You may assume that all words are consist of lowercase letters a-z.
+ *
+ */
+
+public class Task211_WordDictionary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Task211_WordDictionary wordDic = new Task211_WordDictionary();
+		wordDic.addWord("word");
+		wordDic.addWord("abcd");
+		wordDic.addWord("bad");
+		
+		boolean rev = wordDic.search("..d");
+		System.out.println("rev = "+ rev);
+	}
+
+	private TrieNode root; 
+	
+	public Task211_WordDictionary() {
+		root = new TrieNode();
+	}
+	public void addWord(String word) {
+		insert(root, word);
+	}
+	
+	public void insert(TrieNode root, String word) {
+		if (word.isEmpty()) {
+			root.isEnd = true;
+			return ;
+		}
+		char next = word.charAt(0);
+		if (!root.children.containsKey(next)) {
+			root.children.put(next, new TrieNode());
+		}
+		insert(root.children.get(next), word.substring(1));
+	}
+
+	// Returns if the word is in the data structure. A word could
+	// contain the dot character '.' to represent any one letter.
+	public boolean search(String word) {
+		return searchHelper(root, word);
+	}
+	
+	public boolean searchHelper(TrieNode node, String word) {
+		if (word.isEmpty()) {
+			if (node == null) {
+				return false;
+			}
+			if (node.isEnd == true) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		
+		char next = word.charAt(0);
+		if (next >= 'a' && next <= 'z') {
+			// from 'a' to 'z'
+			if (!node.children.containsKey(next)) {
+				return false;
+			} else {
+				return searchHelper(node.children.get(next), word.substring(1));
+			}
+		} else { // next == '.'
+			boolean rev = false;
+			// traverse the children
+			for(Entry<Character, TrieNode> entry: node.children.entrySet()) {
+				rev = rev || searchHelper(entry.getValue(), word.substring(1));
+			}
+			return rev;
+		}
+	}
+
+}
+
