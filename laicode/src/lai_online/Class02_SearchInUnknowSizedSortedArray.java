@@ -5,7 +5,7 @@ public class Class02_SearchInUnknowSizedSortedArray {
 	
 	/*
 	 * Search In Unknown Sized Sorted Array
-	 * Fair Data Structure
+	 *
 	 * Given a integer dictionary A of unknown size, 
 	 * where the numbers in the dictionary are sorted in ascending order, determine if a given target integer T is in the dictionary. Return the index of T in A, return -1 if T is not in A.
 	 * Assumptions

@@ -11,7 +11,6 @@ public class Tree_Traversal {
 		
 	/*
 	 * Pre Order Traversal
-	 * 
 	 * 1 We always print root first, then root can be eliminated from stack.
 	 * 2 We traverse left sub first, so the right sub should be retained in the stack before the left sub is done.
 	 */
@@ -119,9 +118,7 @@ public class Tree_Traversal {
 	// post Order Traversal
 	/*
 	 * left subtree, right subtree, root --> reverse order of root, right subtree, left subtree
-	 * 
-	 * 
-
+	 *
 	 */
 	public static void postOrder1(TreeNode root) {
 		if (root == null) {

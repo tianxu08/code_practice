@@ -1,6 +1,5 @@
-package array;
+package s_array;
 
-import debug.Debug;
 
 public class KClosest {
 
@@ -14,7 +13,7 @@ public class KClosest {
 		int k = 0;
 		int[] result = kClosest(a, target, k);
 //		System.out.println( esult);
-		Debug.printArray(result);
+//		Debug.printArray(result);
 	}
 	
 	

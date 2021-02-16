@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/laicode.iml" filepath="$PROJECT_DIR$/laicode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/laicode1.iml" filepath="$PROJECT_DIR$/src/laicode1.iml" />
     </modules>
   </component>
 </project>

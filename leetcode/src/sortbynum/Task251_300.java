@@ -26,7 +26,7 @@ public class Task251_300 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		test253();
-		test254();
+//		test254();
 //		test255();
 //		test264();
 //		test261();
@@ -50,7 +50,7 @@ public class Task251_300 {
 //		test_294_1();
 //		test296();
 //		test300_2();
-		
+		test();
 		
 	}
 	/*
@@ -115,7 +115,13 @@ public class Task251_300 {
 		System.out.println("minMeetingRoom2 = " + minMtRm2);
 		
 	}
-	
+
+	/**
+	 *
+	 * @param intervals
+	 * @return
+	 *
+	 */
 	public static int task253_minMeetingRooms(Interval[] intervals) {
 		if (intervals == null || intervals.length == 0) {
 			return 0;
@@ -2767,5 +2773,28 @@ public class Task251_300 {
 	 * or toIndex if all elements in the range are less than the specified key. 
 	 * Note that this guarantees that the return value will be >= 0 if and only if the key is found.
 	 */
+
+
+	public static void test() {
+		String s = "415+architects";
+		String res = escapeSolrValue(s);
+		System.out.print(res);
+	}
+
+	public static String escapeSolrValue(String s) {
+		StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+          char c = s.charAt(i);
+          // These characters are part of the query syntax and must be escaped
+          if (c == '\\' || c == '+' || c == '-' || c == '!'  || c == '(' || c == ')' || c == ':'
+            || c == '^' || c == '[' || c == ']' || c == '\"' || c == '{' || c == '}' || c == '~'
+            || c == '*' || c == '?' || c == '|' || c == '&'  || c == ';' || c == '/'
+            || Character.isWhitespace(c)) {
+            sb.append('\\');
+          }
+          sb.append(c);
+        }
+    	return sb.toString();
+	}
 
 }
